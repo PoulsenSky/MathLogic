@@ -1,0 +1,66 @@
+static List<Question> GenerateQuestions()
+    {
+        return new List<Question>
+        {
+            new Question("Jika a adalah 6 dan b adalah 7, maka berapakah hasil dari 3a + b?",
+                        new List<string>{"A. 20", "B. 21", "C. 23", "D. 25"}, "D"),
+
+            new Question("8p + 5q jika dikurangkan dengan 2p - 4q, maka hasilnya adalah?",
+                        new List<string>{"A. 6p - q", "B. 6p + 9q", "C. -6p + q", "D. -6p - 9q"}, "B"),
+
+            new Question("Hasil perkalian dari (4x - 5)(3x + 3) adalah?",
+                        new List<string>{"A. 12x^2 - 3x - 15", "B. 12x^2 + 3x - 15", "C. 12x^2 - 27x - 15", "D. 12x^2 + 27x + 15"}, "A"),
+
+            new Question("Bilangan berikutnya dari '1, 2, 4, 7, 11, 16, ...' adalah?",
+                        new List<string>{"A. 20", "B. 21", "C. 22", "D. 23"}, "C"),
+
+            new Question("Semua penipu pandai bicara dan ramah. Tuan M tidak ramah, tetapi pandai bicara. Kesimpulan dari pernyataan tersebut adalah?",
+                        new List<string>{"A. Tuan M seorang penipu yang pandai bicara", "B. Tuan M bukan seorang penipu yang ramah", "C. Tuan M bukan seorang penipu, meskipun pandai bicara", "D. Tuan M seorang penipu yang tidak ramah"}, "C"),
+
+            new Question("Ingkaran dari pernyataan 'Semua orang makan nasi' adalah?",
+                        new List<string>{"A. Beberapa orang tidak makan nasi", "B. Semua orang tidak makan nasi", "C. Tidak semua orang tidak makan nasi", "D. Tidak semua orang makan nasi"}, "A"),
+
+            new Question("Lanjutan tiga bilangan dari '3, 6, 9, 12, 15, ..., ..., ...' adalah",
+                        new List<string>{"A. 19 22 25", "B. 18 21 24", "C. 20 23 26", "D. 21 22 23"}, "B"),
+
+            new Question("28 adalah berapa persen dari 70?",
+                        new List<string>{"A. 10", "B. 20", "C. 30", "D. 40"}, "D"),
+
+            new Question("(4+5)^3 adalah?",
+                        new List<string>{"", "B. 811", "C. 582", "D. 768"}, "A"),
+
+            new Question("pangkat kuadrat dari 0,25 adalah?",
+                        new List<string>{"A. 62,5", "B. 6,25", "C. 0,625", "D. 0.0625"}, "D"),
+
+            //10 Soal
+            new Question("1/4 berbanding 3/5 adalah?",
+                        new List<string>{"A. 1 berbanding 3", "B. 3 berbanding 20", "C. 5 berbanding 12", "D. 3 berbanding 4"}, "C"),
+
+            new Question("Jika nilai x terletak antara y dan z, sedangkan z < x. Maka?",
+                        new List<string>{"A. x > y", "B. x < y", "C. x = y", "D. x dan y tidak bisa ditentukan"}, "D"),
+
+            new Question("Jika tabung P tingginya dua kali tinggi tabung Q dan jari-jarinya setengah dari tabung Q, maka perbandingan isi tabung P terhadap isi tabung Q adalah?",
+                        new List<string>{"A. 1:4", "B. 1:2", "C. 1:1", "D. 2:1"}, "B"),
+
+            new Question("Jika seorang berjalan menempuh jarak 2/5 km dalam 5 menit, berapa kecepatan rata-rata perjalanan orang tersebut dalam 1 jam?",
+                        new List<string>{"A. 4 km", "B. 0,4 km", "", "D. 2,4 km"}, "C"),
+
+            new Question("Dua bilangan kosong yang harus diisi dari deret angka '3, 5, 8, ..., 17, 23, ...' adalah?",
+                        new List<string>{"A. 12 dan 30", "B. 10 dan 26", "C. 11 dan 29", "D. 13 dan 33"}, "A"),
+
+            new Question("Jika terdapat deret angka berupa '23 (30) 37', maka berapakah nilai N dari deret angka '44 (N) 54?",
+                        new List<string>{"A. 47", "B. 48", "C. 49", "D. 50"}, "C"),
+
+            new Question("Negasi dari 'Hari ini Jakarta banjir' adalah?",
+                        new List<string>{"A. Hari ini tentu saja Jakarta banjir", "B. Hari ini Jakarta belum banjir", "C. Tidak benar bahwa hari ini Jakarta tidak banjir", "D. Tidak benar bahwa hari ini Jakarta banjir"}, "D"),
+
+            new Question("Konjungsi dari 'p: Iwan memakai topi' dan 'q: Iwan memakai dasi' adalah?",
+                        new List<string>{"A. Iwan tidak memakai topi, tapi memakai dasi", "", "C. Iwan memakai topi, tapi tidak memakai dasi", "D. Iwan tidak memakai topi dan dasi"}, "B"),
+
+            new Question("Jarak antara kota A-Z 360 km. Jika ditempuh dengan sepeda motor berkecepatan 90 km/jam, maka lama perjalanan adalah?",
+                        new List<string>{"A. 160 menit", "B. 200", "C. 240 menit", "D. 280 menit"}, "C"),
+
+            new Question("Lanjutan angka dari seri '50, 40, 31, 23, ...' adalah?",
+                        new List<string>{"", "B. 17", "C. 18", "D.19"}, "A")
+
+        };

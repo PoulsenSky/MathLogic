@@ -1,0 +1,15 @@
+Input:
+- Variabel Total Soal Terjawab
+•	Hampir Tidak Terjawab:	0 < x < 7 (Menggunakan Kurva Bahu Kiri)
+•	Beberapa Terjawab:	6 < x < 14 (Menggunakan Kurva Segitiga)
+•	Hampir Terjawab Semua:	13 < x < 20 (Menggunakan Kurva Bahu Kanan)
+
+- Variabel Total Jawaban Benar
+•	Sangat Kurang:	0 < x < 7 (Menggunakan Kurva Bahu Kiri)
+•	Normal:		6 < x < 15 (Menggunakan Kurva Segitiga)
+•	Sangat Baik:	14 < x < 20 (Menggunakan Kurva Bahu Kanan)
+
+- Variabel Waktu Tersisa
+•	Lambat:	0 < x < 200 (Menggunakan Kurva Bahu Kiri)
+•	Normal:	150 < x < 400 (Menggunakan Kurva Segitiga)
+•	Cepat:	350 < x < 600 (Menggunakan Kurva Bahu Kanan)

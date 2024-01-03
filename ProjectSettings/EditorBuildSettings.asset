@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main Start Game.unity
+    guid: be144b8b61d59464f9087f1380252ba5
+  - enabled: 1
+    path: Assets/Scenes/Setting.unity
+    guid: 8d3d796c7e1e1b04d9ffcc0199b9d420
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: b6d5975dfa4a1784aa8f5514c0c6e6a1
+  - enabled: 1
+    path: Assets/Scenes/QuitGame.unity
+    guid: e640f9a17b2d0d2448d167f3558b83fe
+  - enabled: 1
+    path: Assets/Scenes/Input Player Name.unity
+    guid: b1208e7be352c5e4dae9b7227e435da1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Loading Scene.unity
+    guid: 86212e2cd2ae6474e8f599d8d8af1ff5
+  - enabled: 1
+    path: Assets/Scenes/QuizUI.unity
+    guid: 9ee9622771b042d4d877a8f0968d8816
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}
